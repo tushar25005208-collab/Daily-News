@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily News Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Daily News</h1>
+    <p>Your source for latest updates</p>
+  </header>
+
+  <div class="layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="world.html">World</a>
+        <a href="tech.html">Technology</a>
+        <a href="sports.html">Sports</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="health.html">Health</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <section class="featured">
+        <h2>Featured Article</h2>
+        <h3>Climate Change & Future</h3>
+        <p>Experts warn about rising sea levels and the urgent need for global action.</p>
+      </section>
+
+      <section class="subscribe">
+        <h2>Subscribe</h2>
+        <p>Get daily news updates straight to your inbox.</p>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="subscribe()" style=" ">Subscribe</button>
+        <p id="message"></p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy;  Daily News </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

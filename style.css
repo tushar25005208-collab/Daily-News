@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background:#fff ;
+}
+header {
+  background: #090909;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 4px solid #ff6600;
+}
+.layout {
+  display:flex;
+
+}
+.sidebar {
+  width: 200px;
+  background: #0d0d0d;
+  min-height: 100vh;
+  font-size: x-large;
+  font-style: italic;
+  border-right: #ff6600 4px solid;
+}
+.sidebar nav a {
+  display: block;
+  color: #fff;
+  padding: 12px;
+  text-decoration:double;
+}
+.sidebar nav a:hover {
+  background: #555;
+}
+main {
+  flex: 1;
+  padding: 20px;
+}
+.featured, .subscribe {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  background: #070707;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 4px solid #ff6600;
+}
